@@ -6,6 +6,7 @@ A view that can display an arbritrary DisplayableMeasurement
 */
 
 import SwiftUI
+import FrutaKit
 
 struct MeasurementView: View {
     var measurement: DisplayableMeasurement

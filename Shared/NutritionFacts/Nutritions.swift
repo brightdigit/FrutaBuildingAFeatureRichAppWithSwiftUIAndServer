@@ -6,6 +6,7 @@ Names of nutritional information and their measurements
 */
 
 import SwiftUI
+import FrutaKit
 
 public struct Nutrition: Identifiable {
     public var id: String

@@ -6,7 +6,6 @@ Nutritional facts for food items.
 */
 
 import Foundation
-import FrutaKit
 
 public struct Density {
     public var mass: Measurement<UnitMass>
@@ -215,12 +214,15 @@ extension NutritionFact {
 
 // MARK: - CustomStringConvertible
 
+#if canImport(SwiftUI)
+@available(macOS 11.0, *)
 extension NutritionFact: CustomStringConvertible {
     public var description: String {
         let suffix = identifier.isEmpty ? "" : " of \(identifier)"
         return "\(referenceMass.converted(to: .grams).localizedSummary(unitStyle: .medium))" + suffix
     }
 }
+#endif
 
 // MARK: - Volume <-> Mass Conversion
 

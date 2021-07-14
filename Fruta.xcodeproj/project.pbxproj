@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,7 +36,6 @@
 		610F54E326158DDB001D3AA0 /* CircleToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1D126157D870046AAA9 /* CircleToggleStyle.swift */; };
 		610F54E526158DDB001D3AA0 /* SmoothieMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1F626157D870046AAA9 /* SmoothieMenu.swift */; };
 		610F54E626158DDB001D3AA0 /* NutritionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54682615818D001D3AA0 /* NutritionRow.swift */; };
-		610F54E726158DDB001D3AA0 /* DisplayableMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */; };
 		610F54E826158DDB001D3AA0 /* NutritionFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54662615818D001D3AA0 /* NutritionFactView.swift */; };
 		610F54E926158DDB001D3AA0 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CB26157D870046AAA9 /* FlipView.swift */; };
 		610F54EA26158DDB001D3AA0 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CC26157D870046AAA9 /* BubbleView.swift */; };
@@ -85,7 +84,6 @@
 		610F552626158DE2001D3AA0 /* CircleToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1D126157D870046AAA9 /* CircleToggleStyle.swift */; };
 		610F552826158DE2001D3AA0 /* SmoothieMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1F626157D870046AAA9 /* SmoothieMenu.swift */; };
 		610F552926158DE2001D3AA0 /* NutritionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54682615818D001D3AA0 /* NutritionRow.swift */; };
-		610F552A26158DE2001D3AA0 /* DisplayableMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */; };
 		610F552B26158DE2001D3AA0 /* NutritionFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54662615818D001D3AA0 /* NutritionFactView.swift */; };
 		610F552C26158DE2001D3AA0 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CB26157D870046AAA9 /* FlipView.swift */; };
 		610F552D26158DE2001D3AA0 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CC26157D870046AAA9 /* BubbleView.swift */; };
@@ -132,7 +130,6 @@
 		610F558426158FA8001D3AA0 /* Nutritions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54722615818D001D3AA0 /* Nutritions.swift */; };
 		610F558626158FA8001D3AA0 /* NutritionFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54732615818D001D3AA0 /* NutritionFact.swift */; };
 		610F558726158FA8001D3AA0 /* NutritionFact+Energy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54702615818D001D3AA0 /* NutritionFact+Energy.swift */; };
-		610F558826158FA8001D3AA0 /* DisplayableMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */; };
 		610F558926158FAC001D3AA0 /* NutritionFactsAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610F546E2615818D001D3AA0 /* NutritionFactsAssets.xcassets */; };
 		610F558C26158FB9001D3AA0 /* RewardsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C426157D870046AAA9 /* RewardsCard.swift */; };
 		610F558D26158FB9001D3AA0 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C726157D870046AAA9 /* PaymentButton.swift */; };
@@ -183,7 +180,6 @@
 		610F55D5261593D1001D3AA0 /* NutritionFact+Energy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54702615818D001D3AA0 /* NutritionFact+Energy.swift */; };
 		610F55D6261593D1001D3AA0 /* Nutritions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54722615818D001D3AA0 /* Nutritions.swift */; };
 		610F55D7261593D1001D3AA0 /* NutritionFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54732615818D001D3AA0 /* NutritionFact.swift */; };
-		610F55D9261593D1001D3AA0 /* DisplayableMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */; };
 		610F55DA261593D1001D3AA0 /* UnitIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54742615818D001D3AA0 /* UnitIcons.swift */; };
 		610F55DB261593D3001D3AA0 /* RewardsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C426157D870046AAA9 /* RewardsCard.swift */; };
 		610F55DC261593D3001D3AA0 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C626157D870046AAA9 /* RewardsView.swift */; };
@@ -238,7 +234,6 @@
 		612F3DB52615A33E00137D77 /* Nutritions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54722615818D001D3AA0 /* Nutritions.swift */; };
 		612F3DB62615A33E00137D77 /* NutritionFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54732615818D001D3AA0 /* NutritionFact.swift */; };
 		612F3DB72615A33E00137D77 /* UnitIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54742615818D001D3AA0 /* UnitIcons.swift */; };
-		612F3DB82615A33E00137D77 /* DisplayableMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */; };
 		612F3DB92615A34000137D77 /* RewardsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C426157D870046AAA9 /* RewardsCard.swift */; };
 		612F3DBA2615A34000137D77 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C726157D870046AAA9 /* PaymentButton.swift */; };
 		612F3DBB2615A34000137D77 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C626157D870046AAA9 /* RewardsView.swift */; };
@@ -302,6 +297,10 @@
 		A3DC6E3D2657241A008724A1 /* Ingredients.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DC6E392657241A008724A1 /* Ingredients.strings */; };
 		A3DC6E3E2657241A008724A1 /* Ingredients.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DC6E392657241A008724A1 /* Ingredients.strings */; };
 		A3DC6E3F2657241A008724A1 /* Ingredients.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DC6E392657241A008724A1 /* Ingredients.strings */; };
+		B30EEB7C269F5C2F001B05BA /* FrutaKit in Frameworks */ = {isa = PBXBuildFile; productRef = B30EEB7B269F5C2F001B05BA /* FrutaKit */; };
+		B30EEB7E269F5C34001B05BA /* FrutaKit in Frameworks */ = {isa = PBXBuildFile; productRef = B30EEB7D269F5C34001B05BA /* FrutaKit */; };
+		B30EEB80269F5CE8001B05BA /* FrutaKit in Frameworks */ = {isa = PBXBuildFile; productRef = B30EEB7F269F5CE8001B05BA /* FrutaKit */; };
+		B30EEB82269F5D04001B05BA /* FrutaKit in Frameworks */ = {isa = PBXBuildFile; productRef = B30EEB81269F5D04001B05BA /* FrutaKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -396,7 +395,6 @@
 		610F54722615818D001D3AA0 /* Nutritions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nutritions.swift; sourceTree = "<group>"; };
 		610F54732615818D001D3AA0 /* NutritionFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionFact.swift; sourceTree = "<group>"; };
 		610F54742615818D001D3AA0 /* UnitIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitIcons.swift; sourceTree = "<group>"; };
-		610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayableMeasurement.swift; sourceTree = "<group>"; };
 		610F550626158DDB001D3AA0 /* Fruta iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruta iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		610F554926158DE2001D3AA0 /* Fruta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610F554F26158E0A001D3AA0 /* Fruta iOS Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fruta iOS Widgets.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -475,6 +473,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30EEB7C269F5C2F001B05BA /* FrutaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +481,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30EEB7E269F5C34001B05BA /* FrutaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +489,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30EEB82269F5D04001B05BA /* FrutaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +504,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30EEB80269F5CE8001B05BA /* FrutaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +532,7 @@
 				5E612405244E8B32004DDFF7 /* Products */,
 				CC6C0F7AEF2D0CBC2E3EEFD6 /* Configuration */,
 				3CAE0E9B584C983E4E90807D /* LICENSE */,
+				B30EEB7A269F5C2F001B05BA /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -590,7 +593,6 @@
 		610F54652615818D001D3AA0 /* NutritionFacts */ = {
 			isa = PBXGroup;
 			children = (
-				610F54752615818D001D3AA0 /* DisplayableMeasurement.swift */,
 				610F54732615818D001D3AA0 /* NutritionFact.swift */,
 				610F54672615818D001D3AA0 /* NutritionFact+Decodable.swift */,
 				610F54702615818D001D3AA0 /* NutritionFact+Energy.swift */,
@@ -732,6 +734,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		B30EEB7A269F5C2F001B05BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC6C0F7AEF2D0CBC2E3EEFD6 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -761,6 +770,9 @@
 				612F3D922615A2F600137D77 /* PBXTargetDependency */,
 			);
 			name = "Fruta iOS";
+			packageProductDependencies = (
+				B30EEB7B269F5C2F001B05BA /* FrutaKit */,
+			);
 			productName = "Smoothies iOS";
 			productReference = 610F550626158DDB001D3AA0 /* Fruta iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -781,6 +793,9 @@
 				610F55B7261592F9001D3AA0 /* PBXTargetDependency */,
 			);
 			name = "Fruta macOS";
+			packageProductDependencies = (
+				B30EEB7D269F5C34001B05BA /* FrutaKit */,
+			);
 			productName = "Smoothies macOS";
 			productReference = 610F554926158DE2001D3AA0 /* Fruta.app */;
 			productType = "com.apple.product-type.application";
@@ -798,6 +813,9 @@
 			dependencies = (
 			);
 			name = "Fruta iOS Widgets";
+			packageProductDependencies = (
+				B30EEB81269F5D04001B05BA /* FrutaKit */,
+			);
 			productName = "Fruta iOS WidgetsExtension";
 			productReference = 610F554F26158E0A001D3AA0 /* Fruta iOS Widgets.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -832,6 +850,9 @@
 			dependencies = (
 			);
 			name = "Fruta iOS Clip";
+			packageProductDependencies = (
+				B30EEB7F269F5CE8001B05BA /* FrutaKit */,
+			);
 			productName = "Fruta iOS Clip";
 			productReference = 612F3D842615A2F400137D77 /* Fruta iOS Clip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
@@ -988,7 +1009,6 @@
 				610F54E326158DDB001D3AA0 /* CircleToggleStyle.swift in Sources */,
 				610F54E526158DDB001D3AA0 /* SmoothieMenu.swift in Sources */,
 				610F54E626158DDB001D3AA0 /* NutritionRow.swift in Sources */,
-				610F54E726158DDB001D3AA0 /* DisplayableMeasurement.swift in Sources */,
 				610F54E826158DDB001D3AA0 /* NutritionFactView.swift in Sources */,
 				610F54E926158DDB001D3AA0 /* FlipView.swift in Sources */,
 				610F54EA26158DDB001D3AA0 /* BubbleView.swift in Sources */,
@@ -1045,7 +1065,6 @@
 				610F552626158DE2001D3AA0 /* CircleToggleStyle.swift in Sources */,
 				610F552826158DE2001D3AA0 /* SmoothieMenu.swift in Sources */,
 				610F552926158DE2001D3AA0 /* NutritionRow.swift in Sources */,
-				610F552A26158DE2001D3AA0 /* DisplayableMeasurement.swift in Sources */,
 				610F552B26158DE2001D3AA0 /* NutritionFactView.swift in Sources */,
 				610F552C26158DE2001D3AA0 /* FlipView.swift in Sources */,
 				610F552D26158DE2001D3AA0 /* BubbleView.swift in Sources */,
@@ -1088,7 +1107,6 @@
 				610F55A226158FEA001D3AA0 /* AppTabNavigation.swift in Sources */,
 				610F559926158FC2001D3AA0 /* Smoothie+SwiftUI.swift in Sources */,
 				610F556F26158F97001D3AA0 /* CountButton.swift in Sources */,
-				610F558826158FA8001D3AA0 /* DisplayableMeasurement.swift in Sources */,
 				610F559426158FBC001D3AA0 /* MeasuredIngredient.swift in Sources */,
 				610F558D26158FB9001D3AA0 /* PaymentButton.swift in Sources */,
 				610F557C26158F9D001D3AA0 /* Account.swift in Sources */,
@@ -1144,7 +1162,6 @@
 				610F55F3261593DF001D3AA0 /* FrutaWidgets.swift in Sources */,
 				610F55BD261593B9001D3AA0 /* StepperView.swift in Sources */,
 				610F55C8261593BC001D3AA0 /* IngredientGraphic.swift in Sources */,
-				610F55D9261593D1001D3AA0 /* DisplayableMeasurement.swift in Sources */,
 				610F55EE261593DC001D3AA0 /* SquishableButtonStyle.swift in Sources */,
 				610F55BF261593B9001D3AA0 /* FlipView.swift in Sources */,
 				610F55EB261593DA001D3AA0 /* SmoothieMenu.swift in Sources */,
@@ -1217,7 +1234,6 @@
 				612F3D9F2615A32700137D77 /* CountButton.swift in Sources */,
 				612F3DAB2615A33000137D77 /* ContentView.swift in Sources */,
 				612F3DA02615A32700137D77 /* AnimatableFontModifier.swift in Sources */,
-				612F3DB82615A33E00137D77 /* DisplayableMeasurement.swift in Sources */,
 				612F3DBF2615A34400137D77 /* RecipeList.swift in Sources */,
 				612F3DD02615A35200137D77 /* AppTabNavigation.swift in Sources */,
 				612F3D9C2615A32700137D77 /* FlipView.swift in Sources */,
@@ -1815,6 +1831,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B30EEB7B269F5C2F001B05BA /* FrutaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrutaKit;
+		};
+		B30EEB7D269F5C34001B05BA /* FrutaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrutaKit;
+		};
+		B30EEB7F269F5CE8001B05BA /* FrutaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrutaKit;
+		};
+		B30EEB81269F5D04001B05BA /* FrutaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrutaKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E6123F8244E8B32004DDFF7 /* Project object */;
 }

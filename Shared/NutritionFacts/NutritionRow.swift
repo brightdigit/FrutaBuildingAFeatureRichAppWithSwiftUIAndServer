@@ -6,6 +6,7 @@ An individual row of a larger nutritional facts list
 */
 
 import SwiftUI
+import FrutaKit
 
 public struct NutritionRow: View {
     public var nutrition: Nutrition
