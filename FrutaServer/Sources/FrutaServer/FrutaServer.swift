@@ -38,10 +38,16 @@ public struct ServerApp {
   }
   
   public func configure() throws {
+    
     /// Don't forget to start your database via **docker**:
     /// `docker run  --name fruta-pg -e POSTGRES_HOST_AUTH_METHOD=trust -d -p 5432:5432 postgres -c log_statement=all`
+    /// `psql -h localhost -U postgres < ./setup.sql`
     let databaseConfiguration = Self.databaseConfiguration(from: Environment.self)
     self.app.databases.use(databaseConfiguration.0, as: databaseConfiguration.1)
+    app.migrations.add([
+      NutritionalItemMigration()
+    ])
+    try app.autoMigrate().wait()
     
     self.app.get("") { request in
       return "Hello World!"
