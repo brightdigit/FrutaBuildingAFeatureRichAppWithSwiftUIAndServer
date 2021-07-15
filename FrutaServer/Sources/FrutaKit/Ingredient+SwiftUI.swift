@@ -48,7 +48,7 @@ extension BlendMode {
 #else
 enum Angle {
   static func value(fromDegrees value: Double) -> Double {
-    fatalError()
+    value / 180.0 * Double.pi
   }
 }
 enum BlendMode : Int, Codable {

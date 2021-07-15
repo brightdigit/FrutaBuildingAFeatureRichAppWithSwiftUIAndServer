@@ -7,11 +7,36 @@
 
 import Fluent
 import Vapor
+import FrutaKit
 
-final class NutritionalItem: Model {
-  static let schema = "Nutritional_Items"
+final class NutritionalItem : Model {
+  init() {
+    
+  }
+  init(id: UUID? = nil, identifier: String, localizedFoodItemName: String, referenceMass: Double, densityMass: Double, densityVolume: Double, totalSaturatedFat: Double, totalMonounsaturatedFat: Double, totalPolyunsaturatedFat: Double, cholesterol: Double, sodium: Double, totalCarbohydrates: Double, dietaryFiber: Double, sugar: Double, protein: Double, calcium: Double, potassium: Double, vitaminA: Double, vitaminC: Double, iron: Double) {
+    self.id = id
+    self.identifier = identifier
+    self.localizedFoodItemName = localizedFoodItemName
+    self.referenceMass = referenceMass
+    self.densityMass = densityMass
+    self.densityVolume = densityVolume
+    self.totalSaturatedFat = totalSaturatedFat
+    self.totalMonounsaturatedFat = totalMonounsaturatedFat
+    self.totalPolyunsaturatedFat = totalPolyunsaturatedFat
+    self.cholesterol = cholesterol
+    self.sodium = sodium
+    self.totalCarbohydrates = totalCarbohydrates
+    self.dietaryFiber = dietaryFiber
+    self.sugar = sugar
+    self.protein = protein
+    self.calcium = calcium
+    self.potassium = potassium
+    self.vitaminA = vitaminA
+    self.vitaminC = vitaminC
+    self.iron = iron
+  }
   
-  public init() {}
+  static let schema = "Nutritional_Items"
   
   @ID()
   public var id: UUID?
@@ -72,4 +97,10 @@ final class NutritionalItem: Model {
   
   @Field(key: "iron")
   public var iron : Double
+}
+
+extension NutritionalItem {
+  convenience init(fact: NutritionFact) {
+    self.init(id: nil, identifier: fact.identifier, localizedFoodItemName: fact.localizedFoodItemName, referenceMass: fact.referenceMass.value, densityMass: fact.density.mass.value, densityVolume: fact.density.volume.value, totalSaturatedFat: fact.totalSaturatedFat.value, totalMonounsaturatedFat: fact.totalMonounsaturatedFat.value, totalPolyunsaturatedFat: fact.totalPolyunsaturatedFat.value, cholesterol: fact.cholesterol.value, sodium: fact.sodium.value, totalCarbohydrates: fact.totalCarbohydrates.value, dietaryFiber: fact.dietaryFiber.value, sugar: fact.sugar.value, protein: fact.protein.value, calcium: fact.calcium.value, potassium: fact.potassium.value, vitaminA: fact.vitaminA.value, vitaminC: fact.vitaminC.value, iron: fact.iron.value)
+  }
 }

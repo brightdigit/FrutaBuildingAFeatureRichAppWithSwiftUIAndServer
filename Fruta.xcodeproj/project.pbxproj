@@ -242,11 +242,6 @@
 		61C3378526559001001AAC1D /* PurchaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3378226559001001AAC1D /* PurchaseButtonStyle.swift */; };
 		61C3378626559001001AAC1D /* PurchaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3378226559001001AAC1D /* PurchaseButtonStyle.swift */; };
 		61C3378726559001001AAC1D /* PurchaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3378226559001001AAC1D /* PurchaseButtonStyle.swift */; };
-		A31FA5B526323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
-		A31FA5B626323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
-		A31FA5B826323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
-		A31FA5B926323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
-		A31FA5BA26323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
 		A3C268EE262FE0030093B9DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C268F5262FE0030093B9DF /* Localizable.strings */; };
 		A3C268EF262FE0030093B9DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C268F5262FE0030093B9DF /* Localizable.strings */; };
 		A3C268F1262FE0030093B9DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C268F5262FE0030093B9DF /* Localizable.strings */; };
@@ -417,7 +412,6 @@
 		61A8CB8926166F2A002845E4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		61C3378226559001001AAC1D /* PurchaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButtonStyle.swift; sourceTree = "<group>"; };
 		7FC1AA3A24832F0200A6CF1F /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
-		A31FA5B326323F9400FC46C1 /* NutritionalItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NutritionalItems.json; sourceTree = "<group>"; };
 		A3C268F4262FE0030093B9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A3C268FD262FE0060093B9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		A3C2690E262FE1020093B9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -571,7 +565,6 @@
 		610F54692615818D001D3AA0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A31FA5B326323F9400FC46C1 /* NutritionalItems.json */,
 				610F546E2615818D001D3AA0 /* NutritionFactsAssets.xcassets */,
 			);
 			path = Resources;
@@ -867,7 +860,6 @@
 				A3DC6E3B2657241A008724A1 /* Ingredients.strings in Resources */,
 				A3C268EE262FE0030093B9DF /* Localizable.strings in Resources */,
 				A3C26908262FE1020093B9DF /* InfoPlist.strings in Resources */,
-				A31FA5B526323F9400FC46C1 /* NutritionalItems.json in Resources */,
 				610F54FE26158DDB001D3AA0 /* Assets.xcassets in Resources */,
 				610F550026158DDB001D3AA0 /* NutritionFactsAssets.xcassets in Resources */,
 				A3C268F7262FE0060093B9DF /* Localizable.stringsdict in Resources */,
@@ -881,7 +873,6 @@
 				A3DC6E3D2657241A008724A1 /* Ingredients.strings in Resources */,
 				A3C268F1262FE0030093B9DF /* Localizable.strings in Resources */,
 				A3C2690B262FE1020093B9DF /* InfoPlist.strings in Resources */,
-				A31FA5B826323F9400FC46C1 /* NutritionalItems.json in Resources */,
 				610F554126158DE2001D3AA0 /* Assets.xcassets in Resources */,
 				610F554326158DE2001D3AA0 /* NutritionFactsAssets.xcassets in Resources */,
 				A3C268FA262FE0060093B9DF /* Localizable.stringsdict in Resources */,
@@ -895,7 +886,6 @@
 				A3DC6E3E2657241A008724A1 /* Ingredients.strings in Resources */,
 				610F558926158FAC001D3AA0 /* NutritionFactsAssets.xcassets in Resources */,
 				A3C2690C262FE1020093B9DF /* InfoPlist.strings in Resources */,
-				A31FA5B926323F9400FC46C1 /* NutritionalItems.json in Resources */,
 				A3C268F2262FE0030093B9DF /* Localizable.strings in Resources */,
 				610F55A526159116001D3AA0 /* Assets.xcassets in Resources */,
 				A3C268FB262FE0060093B9DF /* Localizable.stringsdict in Resources */,
@@ -909,7 +899,6 @@
 				A3DC6E3F2657241A008724A1 /* Ingredients.strings in Resources */,
 				A3C2690D262FE1020093B9DF /* InfoPlist.strings in Resources */,
 				A3C268F3262FE0030093B9DF /* Localizable.strings in Resources */,
-				A31FA5BA26323F9400FC46C1 /* NutritionalItems.json in Resources */,
 				610F55F62615946A001D3AA0 /* Assets.xcassets in Resources */,
 				A3C268FC262FE0060093B9DF /* Localizable.stringsdict in Resources */,
 				610F55D4261593CE001D3AA0 /* NutritionFactsAssets.xcassets in Resources */,
@@ -923,7 +912,6 @@
 				A3DC6E3C2657241A008724A1 /* Ingredients.strings in Resources */,
 				A3C26909262FE1020093B9DF /* InfoPlist.strings in Resources */,
 				A3C268EF262FE0030093B9DF /* Localizable.strings in Resources */,
-				A31FA5B626323F9400FC46C1 /* NutritionalItems.json in Resources */,
 				612F3D9A2615A32300137D77 /* Assets.xcassets in Resources */,
 				A3C268F8262FE0060093B9DF /* Localizable.stringsdict in Resources */,
 				612F3DB22615A33A00137D77 /* NutritionFactsAssets.xcassets in Resources */,
