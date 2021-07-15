@@ -5,8 +5,10 @@ Abstract:
 An ingredient with a measurement that informs its nutrition facts
 */
 
-import SwiftUI
 
+import Foundation
+
+@available(macOS 12.0, *)
 struct MeasuredIngredient: Identifiable, Codable {
     var ingredient: Ingredient
     var measurement: Measurement<UnitVolume>
@@ -20,6 +22,7 @@ struct MeasuredIngredient: Identifiable, Codable {
     var id: Ingredient.ID { ingredient.id }
 }
 
+@available(macOS 12.0, *)
 extension MeasuredIngredient {
     var kilocalories: Int {
         guard let nutritionFact = nutritionFact else {
@@ -38,12 +41,15 @@ extension MeasuredIngredient {
     }
 }
 
+@available(macOS 12.0, *)
 extension Ingredient {
     func measured(with unit: UnitVolume) -> MeasuredIngredient {
+      
         MeasuredIngredient(self, measurement: Measurement(value: 1, unit: unit))
     }
 }
 
+@available(macOS 12.0, *)
 extension MeasuredIngredient {
     func scaled(by scale: Double) -> MeasuredIngredient {
         return MeasuredIngredient(ingredient, measurement: measurement * scale)

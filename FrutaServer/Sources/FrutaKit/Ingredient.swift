@@ -6,11 +6,11 @@ A model that represents a smoothie ingredient and its appearance as a thumbnail 
 */
 
 // MARK: - Ingredient
-
+@available(iOS 15.0, macOS 12.0, *)
 struct Ingredient: Identifiable, Codable {
     var id: String
     var name: String
-    var title = CardTitle()
+    var title = CardTitleProperties()
     var thumbnailCrop = Crop()
     var cardCrop = Crop()
 
@@ -21,7 +21,7 @@ struct Ingredient: Identifiable, Codable {
 }
 
 // MARK: - All Ingredients
-
+@available(iOS 15.0, macOS 12.0, *)
 extension Ingredient {
     static let all: [Ingredient] = [
         .avocado,
